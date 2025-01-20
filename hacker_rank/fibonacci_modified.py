@@ -18,10 +18,8 @@ import sys
 
 
 def fibonacciModified(t1, t2, n):
-    for _ in range(n - 2):
-        t_next = t1 + t2**2
-        t1 = t2
-        t2 = t_next
+    for _ in range(2, n):
+        t1, t2 = t2, t1 + t2**2
     return t2
 
 
