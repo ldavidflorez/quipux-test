@@ -1,0 +1,15 @@
+{
+    "botData": {
+        "name": "Crazy Form Bot",
+        "version": "1.0.0",
+        "description": "Crazy Form Bot",
+        "company": "Quipux S.A.S",
+        "author": "Luis David Florez Pareja",
+        "email": "ldavid.florez@outlook.es",
+        "driverPath": "C:/Users/ldavi/OneDrive/Escritorio/quipux-test/crazy_form_bot/drivers/geckodriver.exe"
+    },
+    "processData": {
+        "excelPath": "C:/Users/ldavi/OneDrive/Escritorio/quipux-test/crazy_form_bot/files/Arena RPA FormData.xlsx",
+        "url": "https://arenarpa.com/crazy-form"
+    }
+}
